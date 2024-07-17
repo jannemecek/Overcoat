@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'Foundation'
   s.dependency 'Mantle', '~> 2.0'
-  s.dependency 'AFNetworking/Serialization', '~> 3.0'
-  s.dependency 'AFNetworking/NSURLSession', '~> 3.0'
+  s.dependency 'AFNetworking/Serialization', '~> 4.0'
+  s.dependency 'AFNetworking/NSURLSession', '~> 4.0'
 
   s.source_files = 'sources/Core/*.{h,m}'
 end
