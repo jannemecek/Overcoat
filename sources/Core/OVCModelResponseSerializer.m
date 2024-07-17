@@ -235,11 +235,12 @@ void __ovc_URLSession_task_didCompleteWithError_(ovc_dummy_AFURLSessionManagerTa
 }
 
 - (NSStringEncoding)stringEncoding {
-    return self.jsonSerializer.stringEncoding;
+  return NSUTF8StringEncoding;
+    // return self.jsonSerializer.stringEncoding;
 }
 
 - (void)setStringEncoding:(NSStringEncoding)stringEncoding {
-    self.jsonSerializer.stringEncoding = stringEncoding;
+    // self.jsonSerializer.stringEncoding = stringEncoding;
 }
 
 - (BOOL)validateResponse:(NSHTTPURLResponse *)response
